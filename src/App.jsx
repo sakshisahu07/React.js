@@ -272,6 +272,24 @@
 // }
 // export default App;
 
+// import Cybrom from "./Cybrom";
+// const Student={
+//   "rollno":123,
+//   "name": "Sakshi",
+//   "city": "bhopal",
+//   "course": "mern",
+//   "subject":"React",
+// }
+// const App=()=>{
+//   return(
+//     <>
+//       <h1>Welcome to Cybrom</h1>
+//       <Cybrom rno={Student.rollno} nm={Student.name} ct={Student.city} crs={Student.course} sub={Student.subject} />
+//     </>
+//   )
+// }
+// export default App;
+
 // =======================================map method=====================================================
 
 // const App=()=>{
@@ -310,6 +328,8 @@
 // }
 // export default App;
 
+
+
 // ===============================================================================
 
 // const city=["Bhopal", "Indore","Delhi","Satna","Rewa"];
@@ -332,28 +352,161 @@
 // }
 // export default App;
 
+
+
 // ==========================================================================================
 
-const subject=["Php","Sql","Mern","React","java"];
-const App=()=>{
-  const mysub= subject.map((key)=>{
-    return(
-      <>
-        <li>{key}</li>
-      </>
-    )
-  })
+// const subject=["Php","Sql","Mern","React","java"];
+// const App=()=>{
+//   const mysub= subject.map((key)=>{
+//     return(
+//       <>
+//         <li>{key}</li>
+//       </>
+//     )
+//   })
 
+//   return(
+//     <>
+//       <h1>Welcome to bhopal</h1>
+//       <ul>
+//         {mysub}
+//       </ul>
+//     </>
+//   )
+// }
+
+// export default App;
+
+// ======================================================================================================
+// const sub=["Mongo DB","ExpressJS","ReactJs","NodeJs"];
+// const mysub=sub.map((key)=>{
+//   return(
+//     <>
+//       <li>{key}</li>
+//     </>
+//   )
+// })
+// const App=()=>{
+//   return(
+//     <>
+//     <h1>Mern Stand for</h1>
+//       <ul>{mysub}</ul>
+//     </>
+//   )
+// }
+// export default App;
+
+// =======================================================================================================
+// const Student=[
+//   {
+//     "rollno":123,
+//     "name":"Sakshi",
+//     "city":"Bhopal",
+//   },
+//   {
+//     "rollno":123,
+//     "name":"Sakshi",
+//     "city":"Bhopal",
+//   },
+//   {
+//     "rollno":123,
+//     "name":"Sakshi",
+//     "city":"Bhopal",
+//   },
+//   {
+//     "rollno":123,
+//     "name":"Sakshi",
+//     "city":"Bhopal",
+//   }
+// ]
+//   const ans=Student.map((key)=>{
+//     return(
+//       <>
+//       <table>
+//       <tr>
+//         <td>{key.rollno}</td>
+//         <td>{key.name}</td>
+//         <td>{key.city}</td>
+//       </tr>
+//       </table>
+//       </>
+//     )
+//   })
+//   const App=()=>{
+//     return(
+//       <>
+//         <h1>Welcome to cybrom bhopal!!</h1>
+//         <table border="1" width="500" bgcolor="pink">
+//           <tr bgcolor="blue">
+//           <th>Rollno</th>
+//           <th>Name</th>
+//           <th>City</th>
+//           </tr>
+//           {ans}
+//         </table>
+//       </>
+//     )
+//   }
+//   export default App;
+
+  // =================================================================================
+
+//   import Employee from "./Employee"
+//   const ans=Employee.map((key)=>{
+//     return(
+//       <>
+//        <tr>
+//         <td>{key.Empno}</td>
+//         <td>{key.name}</td>
+//         <td>{key.salary}</td>
+//         <td>{key.city}</td>
+//        </tr>
+//       </>
+//     )
+//   })
+//   const App=()=>{
+//     return(
+//       <>
+//         <h1>Welcome to cybrom!!</h1>
+//         <table align="center" width="600" bgcolor="yellow">
+//           <tr>
+//             <th>Emp number</th>
+//             <th>Name</th>
+//             <th>Salary</th>
+//             <th>City</th>
+//           </tr>
+//           {ans}
+
+//         </table>
+//       </>
+//     )
+//   }
+// export default App;
+// ========================================================================================
+import School from "./School";
+import Student from "./Student";
+
+
+const ans=Student.map((key)=><School 
+          rno={key.rollno}
+          nm={key.name}
+          ct={key.city}
+          fs={key.fees}/> )
+  const App=()=>{
   return(
     <>
-      <h1>Welcome to bhopal</h1>
-      <ul>
-        {mysub}
-      </ul>
-      
-      
+      <h1>Our students list</h1>
+      <table border="1" bgcolor="skyblue" width={"100%"} cellPadding={8} >
+        <tr>
+          <th>Roll number</th>
+          <th>Name</th>
+          <th>City</th>
+          <th>Fees</th>
+        </tr>
+        {ans}
+      </table>
     </>
   )
 }
-
 export default App;

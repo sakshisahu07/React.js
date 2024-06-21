@@ -35,3 +35,17 @@
 // }
 
 // export default Cybrom;
+
+const Cybrom=(props)=>{
+    return(
+        <>
+            <h1>Welcome to Cybrom</h1>
+            <h1>student roll no. : {props.rno}</h1>
+            <h1>Name: {props.nm}</h1>
+            <h1>City: {props.ct}</h1>
+            <h1>Course: {props.crs}</h1>
+            <h1>Subject:{props.sub}</h1>
+        </>
+    )
+}
+export default Cybrom;
