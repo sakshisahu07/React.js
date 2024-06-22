@@ -44,41 +44,76 @@
 // export default Student;
 
 // ==================================================================================
+// const Student=[
+//     {
+//         "rollno":123,
+//         "name":"Riya",
+//         "city":"Satna",
+//         "fees":25000,
+
+//     },
+//     {
+//         "rollno":129,
+//         "name":"Megha",
+//         "city":"Indore",
+//         "fees":15000,
+
+//     },
+//     {
+//         "rollno":121,
+//         "name":"Khushi",
+//         "city":"Delhi",
+//         "fees":10000,
+
+//     },
+//     {
+//         "rollno":101,
+//         "name":"Sanya",
+//         "city":"Katni",
+//         "fees":90000,
+
+//     },
+//     {
+//         "rollno":983,
+//         "name":"Meera",
+//         "city":"Rewa",
+//         "fees":10000,
+
+//     }
+// ]
+// export default Student;
+
+// ================================================================================================
 const Student=[
     {
         "rollno":123,
-        "name":"Riya",
-        "city":"Satna",
-        "fees":25000,
-
+        "name": "Sakshi",
+        "city":"Bhopal",
+        "fees": 20000,
     },
     {
-        "rollno":129,
-        "name":"Megha",
-        "city":"Indore",
-        "fees":15000,
-
+        "rollno":123,
+        "name": "Sakshi",
+        "city":"Bhopal",
+        "fees": 20000,
     },
     {
-        "rollno":121,
-        "name":"Khushi",
-        "city":"Delhi",
-        "fees":10000,
-
+        "rollno":123,
+        "name": "Sakshi",
+        "city":"Bhopal",
+        "fees": 20000,
     },
     {
-        "rollno":101,
-        "name":"Sanya",
-        "city":"Katni",
-        "fees":90000,
-
+        "rollno":123,
+        "name": "Sakshi",
+        "city":"Bhopal",
+        "fees": 20000,
     },
     {
-        "rollno":983,
-        "name":"Meera",
-        "city":"Rewa",
-        "fees":10000,
-
-    }
+        "rollno":123,
+        "name": "Sakshi",
+        "city":"Bhopal",
+        "fees": 20000,
+    },
 ]
 export default Student;

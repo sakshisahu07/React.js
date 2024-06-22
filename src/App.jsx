@@ -450,7 +450,64 @@
 //   }
 //   export default App;
 
-  // =================================================================================
+// ===========================================================================================
+
+
+// const Student=[
+//   {
+//     "name":"Khushi",
+//     "city":"Kanpur",
+//     "course":"Mern",
+//     "fees": 90000
+//   },
+//   {
+//     "name":"Khushi",
+//     "city":"Kanpur",
+//     "course":"Mern",
+//     "fees": 90000
+//   },
+//   {
+//     "name":"Khushi",
+//     "city":"Kanpur",
+//     "course":"Mern",
+//     "fees": 90000
+//   },
+//   {
+//     "name":"Khushi",
+//     "city":"Kanpur",
+//     "course":"Mern",
+//     "fees": 90000
+//   }
+// ]
+// const ans=Student.map((key)=>{
+//   return(
+//     <>
+//       <tr>
+//         <td>{key.name}</td>
+//         <td>{key.city}</td>
+//         <td>{key.course}</td>
+//         <td>{key.fees}</td>
+//       </tr>
+//     </>
+//   )
+// })
+// const App=()=>{
+//   return(
+//     <>
+//       <table>
+//         <tr>
+//           <th>Name</th>
+//           <th>City</th>
+//           <th>Course</th>
+//           <th>Salary</th>
+//         </tr>
+//         {ans}
+//       </table>
+//     </>
+//   )
+// }
+// export default App;
+// ======================================================================================
 
 //   import Employee from "./Employee"
 //   const ans=Employee.map((key)=>{
@@ -484,28 +541,82 @@
 //   }
 // export default App;
 // ========================================================================================
-import School from "./School";
-import Student from "./Student";
+// import School from "./School";
+// import Student from "./Student";
 
 
-const ans=Student.map((key)=><School 
-          rno={key.rollno}
-          nm={key.name}
-          ct={key.city}
-          fs={key.fees}/> )
-  const App=()=>{
+// const ans=Student.map((key)=><School 
+//           rno={key.rollno}
+//           nm={key.name}
+//           ct={key.city}
+//           fs={key.fees}/> )
+//   const App=()=>{
+//   return(
+//     <>
+//       <h1>Our students list</h1>
+//       <table border="1" bgcolor="skyblue" width={"100%"} cellPadding={8} >
+//         <tr>
+//           <th>Roll number</th>
+//           <th>Name</th>
+//           <th>City</th>
+//           <th>Fees</th>
+//         </tr>
+//         {ans}
+//       </table>
+//     </>
+//   )
+// }
+// export default App;
+
+// ===========================================================================
+// import Cybrom from "./Cybrom";
+// import Student from "./Student";
+
+// const ans=Student.map((key)=><Cybrom rno={key.rollno} nm={key.name} ct={key.city} fs={key.fees}/>)
+
+// const App=()=>{
+//   return(
+//     <>
+//       <h1>Our Students list</h1>
+//       <table align="center" border={1} width={500} bgcolor="skyblue">
+//         <tr>
+//           <th>Rollno</th>
+//           <th>Name</th>
+//           <th>City</th>
+//           <th>Fees</th>
+//         </tr>
+//         {ans}
+//       </table>
+//     </>
+//   )
+// }
+// export default App;
+// ===============================================================================================
+// const App=()=>{
+//   return(
+//     <>
+//       <h1 style={{color:"pink" , fontFamily:"verdana" , }}>Hello we are developer</h1>
+//       <h2 style={{color: "blue" , fontFamily:"cursive",}}>React Developer</h2>
+//     </>
+//   )
+// }
+// export default App;
+
+// ===================================================================================================
+const App=()=>{
   return(
     <>
-      <h1>Our students list</h1>
-      <table border="1" bgcolor="skyblue" width={"100%"} cellPadding={8} >
-        <tr>
-          <th>Roll number</th>
-          <th>Name</th>
-          <th>City</th>
-          <th>Fees</th>
-        </tr>
-        {ans}
-      </table>
+      <div style={{backgroundColor:"red", borderRadius:"20px", width:"200px",height:"200px"}}>\
+
+      <div style={{backgroundColor:"green" , borderRadius:"20px",width:"150px", height:"150",position:"relative",top:"20px",left:"20px"}}>
+
+              <div style={{backgroundColor:"blue", borderRadius:"20px",width:"100px",height:"100px",margin:"10px",position:"relative", top:"20px",left:"20px"}}>
+
+                <div style={{position:"relative", top:"20px",left:"20px"}}>Cybrom</div>
+
+               </div>
+        </div>
+        </div>
     </>
   )
 }
