@@ -4,7 +4,7 @@
 //   )
 // }
 
-// export default App
+// export default App;
 
 // const App=()=>{
 //   return(
@@ -450,222 +450,128 @@
 //   }
 //   export default App;
 
+// ======================================june 25=====================================================
+// import Button from 'react-bootstrap/Button';
+// const App=()=>{
+//   return(
+//     <>
+//       <h1>Welcome to Cybrom learn React Bootstrap</h1>
+//       <Button variant="outline-primary">Primary</Button>
+//     </>
+//   )
+// }
+// export default App;
 // ===========================================================================================
-
-
-// const Student=[
-//   {
-//     "name":"Khushi",
-//     "city":"Kanpur",
-//     "course":"Mern",
-//     "fees": 90000
-//   },
-//   {
-//     "name":"Khushi",
-//     "city":"Kanpur",
-//     "course":"Mern",
-//     "fees": 90000
-//   },
-//   {
-//     "name":"Khushi",
-//     "city":"Kanpur",
-//     "course":"Mern",
-//     "fees": 90000
-//   },
-//   {
-//     "name":"Khushi",
-//     "city":"Kanpur",
-//     "course":"Mern",
-//     "fees": 90000
-//   }
-// ]
-// const ans=Student.map((key)=>{
-//   return(
-//     <>
-//       <tr>
-//         <td>{key.name}</td>
-//         <td>{key.city}</td>
-//         <td>{key.course}</td>
-//         <td>{key.fees}</td>
-//       </tr>
-//     </>
-//   )
-// })
+// import Alert from 'react-bootstrap/Alert';
+// import { Container } from 'react-bootstrap';
 // const App=()=>{
 //   return(
 //     <>
-//       <table>
-//         <tr>
-//           <th>Name</th>
-//           <th>City</th>
-//           <th>Course</th>
-//           <th>Salary</th>
-//         </tr>
-//         {ans}
-//       </table>
+//     <Container>
+//           <h1>Welcome</h1>
+//     <Alert variant="primary" dismissible>
+//           This is my Alertbox!!!
+//         </Alert>
+//         <Alert variant="danger" dismissible>
+//           This is my Alertbox!!!
+//         </Alert>
+//         <Alert variant="info" dismissible>
+//           This is my Alertbox!!!
+//         </Alert>
+//         <Alert variant="dark" dismissible>
+//           This is my Alertbox!!!
+//         </Alert>
+//         <Alert variant="light" dismissible>
+//           This is my Alertbox!!!
+//         </Alert>
+//         </Container>
 //     </>
 //   )
 // }
 // export default App;
-// ======================================================================================
-
-//   import Employee from "./Employee"
-//   const ans=Employee.map((key)=>{
-//     return(
-//       <>
-//        <tr>
-//         <td>{key.Empno}</td>
-//         <td>{key.name}</td>
-//         <td>{key.salary}</td>
-//         <td>{key.city}</td>
-//        </tr>
-//       </>
-//     )
-//   })
-//   const App=()=>{
-//     return(
-//       <>
-//         <h1>Welcome to cybrom!!</h1>
-//         <table align="center" width="600" bgcolor="yellow">
-//           <tr>
-//             <th>Emp number</th>
-//             <th>Name</th>
-//             <th>Salary</th>
-//             <th>City</th>
-//           </tr>
-//           {ans}
-
-//         </table>
-//       </>
-//     )
-//   }
-// export default App;
-// ========================================================================================
-// import School from "./School";
-// import Student from "./Student";
-
-
-// const ans=Student.map((key)=><School 
-//           rno={key.rollno}
-//           nm={key.name}
-//           ct={key.city}
-//           fs={key.fees}/> )
-//   const App=()=>{
+// ================================================================================
+// import Badge from 'react-bootstrap/Badge';
+// const App=()=>{
 //   return(
 //     <>
-//       <h1>Our students list</h1>
-//       <table border="1" bgcolor="skyblue" width={"100%"} cellPadding={8} >
-//         <tr>
-//           <th>Roll number</th>
-//           <th>Name</th>
-//           <th>City</th>
-//           <th>Fees</th>
-//         </tr>
-//         {ans}
-//       </table>
+//     <h1>Welcome</h1>
+//     <h1>
+//         Example heading <Badge bg="secondary">New</Badge>
+//       </h1>
+//       <h2>
+//         Example heading <Badge bg="primary">New</Badge>
+//       </h2>
+//       <h3>
+//         Example heading <Badge bg="danger">New</Badge>
+//       </h3>
+//       <h4>
+//         Example heading <Badge bg="info">New</Badge>
+//       </h4>
+//       <h5>
+//         Example heading <Badge bg="dark">New</Badge>
+//       </h5>
+//       <h6>
+//         Example heading <Badge bg="light">New</Badge>
+//       </h6>
 //     </>
 //   )
 // }
 // export default App;
-
-// ===========================================================================
-// import Cybrom from "./Cybrom";
-// import Student from "./Student";
-
-// const ans=Student.map((key)=><Cybrom rno={key.rollno} nm={key.name} ct={key.city} fs={key.fees}/>)
+// ===================================================================
+// import Button from 'react-bootstrap/Button';
+// import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 // const App=()=>{
 //   return(
 //     <>
-//       <h1>Our Students list</h1>
-//       <table align="center" border={1} width={500} bgcolor="skyblue">
-//         <tr>
-//           <th>Rollno</th>
-//           <th>Name</th>
-//           <th>City</th>
-//           <th>Fees</th>
-//         </tr>
-//         {ans}
-//       </table>
+//      <ButtonGroup aria-label="Basic example">
+//       <Button variant="warning">Left</Button>
+//       <Button variant="secondary">Middle</Button>
+//       <Button variant="danger">Right</Button>
+//     </ButtonGroup>
 //     </>
 //   )
 // }
 // export default App;
-// ===============================================================================================
-// const App=()=>{
-//   return(
-//     <>
-//       <h1 style={{color:"pink" , fontFamily:"verdana" , }}>Hello we are developer</h1>
-//       <h2 style={{color: "blue" , fontFamily:"cursive",}}>React Developer</h2>
-//     </>
-//   )
-// }
-// export default App;
-
-// ===================================================================================================
-// const App=()=>{
-//   return(
-//     <>
-//       <div style={{backgroundColor:"red", borderRadius:"20px", width:"200px",height:"200px"}}>\
-
-//       <div style={{backgroundColor:"green" , borderRadius:"20px",width:"150px", height:"150",position:"relative",top:"20px",left:"20px"}}>
-
-//               <div style={{backgroundColor:"blue", borderRadius:"20px",width:"100px",height:"100px",margin:"10px",position:"relative", top:"20px",left:"20px"}}>
-
-//                 <div style={{position:"relative", top:"20px",left:"20px"}}>Cybrom</div>
-
-//                </div>
-//         </div>
-//         </div>
-//     </>
-//   )
-// }
-// export default App;
-// =================================june 24=====================================================
-// const myhead={
-//   color:"blue",
-//   fontFamily:"verdana"
-// }
-// const myhead1={
-//   color:"pink",
-//   fontFamily:"arial",
-//   fontSize:"30px",
-//   textDecoration:"underline"
-// }
-// const App=()=>{
-//   return(
-//     <>
-//       <h1 style={myhead}> Welcome to Bhopal</h1>
-//       <h2 style={myhead1}>Hello we are cybrom Students</h2>
-//     </>
-//   )
-// }
-// export default App;
-
-// import Cybrom from "./Cybrom";
-// const App=()=>{
-//   return(
-//     <>
-//       <h1 className="head1">hello Good morning!!</h1><Cybrom/>
-//     </>
-//   )
-// }
-// export default App;
-
+// =============================================================================
+import Table from 'react-bootstrap/Table';
 const App=()=>{
   return(
     <>
-      <h1>Welcome To Bhopal!!!</h1>
-      <div id="box1">
-        <div id="box2">
-          <div id="box3">
-            <div id="box4">
-                Cybrom
-            </div>
-          </div>
-        </div>
-      </div>
+
+      <h1>Welcome </h1>
+      <Table striped bordered hover>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td colSpan={2}>Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </Table>
+   
     </>
   )
 }
 export default App;
+

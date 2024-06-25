@@ -1,4 +1,4 @@
-/* body{
+body{
     background-color: aquamarine;
     
 
@@ -12,9 +12,9 @@
     color: brown;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: overline;
-} */
-
-body{
+}
+ 
+/* body{
     background-color: aqua;
 }
 #box1{
@@ -51,4 +51,4 @@ body{
     margin-top: 60px;
     width: 180px;
     border: 2px;
-}
+} */

@@ -76,3 +76,35 @@ const Cybrom=()=>{
     )
 }
 export default Cybrom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import College from "./College";
+const Cybrom=()=>{
+    return(
+        <>
+            <h1 style={head2}>WELCOME TO SUVIDHA GIRLS HOSTEL</h1><College/>
+        </>
+    )
+}
+export default Cybrom;
