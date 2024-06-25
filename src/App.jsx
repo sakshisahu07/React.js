@@ -603,20 +603,68 @@
 // export default App;
 
 // ===================================================================================================
+// const App=()=>{
+//   return(
+//     <>
+//       <div style={{backgroundColor:"red", borderRadius:"20px", width:"200px",height:"200px"}}>\
+
+//       <div style={{backgroundColor:"green" , borderRadius:"20px",width:"150px", height:"150",position:"relative",top:"20px",left:"20px"}}>
+
+//               <div style={{backgroundColor:"blue", borderRadius:"20px",width:"100px",height:"100px",margin:"10px",position:"relative", top:"20px",left:"20px"}}>
+
+//                 <div style={{position:"relative", top:"20px",left:"20px"}}>Cybrom</div>
+
+//                </div>
+//         </div>
+//         </div>
+//     </>
+//   )
+// }
+// export default App;
+// =================================june 24=====================================================
+// const myhead={
+//   color:"blue",
+//   fontFamily:"verdana"
+// }
+// const myhead1={
+//   color:"pink",
+//   fontFamily:"arial",
+//   fontSize:"30px",
+//   textDecoration:"underline"
+// }
+// const App=()=>{
+//   return(
+//     <>
+//       <h1 style={myhead}> Welcome to Bhopal</h1>
+//       <h2 style={myhead1}>Hello we are cybrom Students</h2>
+//     </>
+//   )
+// }
+// export default App;
+
+// import Cybrom from "./Cybrom";
+// const App=()=>{
+//   return(
+//     <>
+//       <h1 className="head1">hello Good morning!!</h1><Cybrom/>
+//     </>
+//   )
+// }
+// export default App;
+
 const App=()=>{
   return(
     <>
-      <div style={{backgroundColor:"red", borderRadius:"20px", width:"200px",height:"200px"}}>\
-
-      <div style={{backgroundColor:"green" , borderRadius:"20px",width:"150px", height:"150",position:"relative",top:"20px",left:"20px"}}>
-
-              <div style={{backgroundColor:"blue", borderRadius:"20px",width:"100px",height:"100px",margin:"10px",position:"relative", top:"20px",left:"20px"}}>
-
-                <div style={{position:"relative", top:"20px",left:"20px"}}>Cybrom</div>
-
-               </div>
+      <h1>Welcome To Bhopal!!!</h1>
+      <div id="box1">
+        <div id="box2">
+          <div id="box3">
+            <div id="box4">
+                Cybrom
+            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </>
   )
 }

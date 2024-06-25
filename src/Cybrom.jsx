@@ -51,16 +51,27 @@
 // export default Cybrom;
 
 // ================================june 22==================================================
-const Cybrom=(props)=>{
+// const Cybrom=(props)=>{
+//     return(
+//         <>
+//             <tr>
+//                 <td>{props.rno}</td>
+//                 <td>{props.nm}</td>
+//                 <td>{props.ct}</td>
+//                 <td>{props.fs}</td>
+
+//             </tr>
+//         </>
+//     )
+// }
+// export default Cybrom;
+// ===========================================june 24============================================
+import College from "./College";
+
+const Cybrom=()=>{
     return(
         <>
-            <tr>
-                <td>{props.rno}</td>
-                <td>{props.nm}</td>
-                <td>{props.ct}</td>
-                <td>{props.fs}</td>
-
-            </tr>
+            <h1 className="head2">This is my first App</h1><College/>
         </>
     )
 }
