@@ -330,6 +330,8 @@
 
 
 
+
+
 // ===============================================================================
 
 // const city=["Bhopal", "Indore","Delhi","Satna","Rewa"];
@@ -450,6 +452,51 @@
 //   }
 //   export default App;
 
+// const Employee=[
+  
+//   {
+//     "rollno":123,
+//     "name":"Sakshi",
+//     "salary":20000,
+//   },
+//   {
+//     "rollno":123,
+//     "name":"Sakshi",
+//     "salary":20000,
+//   },
+//   {
+//     "rollno":123,
+//     "name":"Sakshi",
+//     "salary":20000,
+//   }
+// ]
+//   const myans=Employee.map((key)=>{
+//     return(
+//       <>
+//       <table>
+//         <tr>
+//           <th>
+//           {key.rollno}
+//           {key.name}
+//         { key.salary}
+//           </th>
+//         </tr>
+//       </table>
+        
+        
+//       </>
+//     )
+//   })
+//   const App=()=>{
+//     return(
+//       <>
+//       {myans}
+//       </>
+//     )
+//   }
+//   export default App;
+
+
 // ======================================june 25=====================================================
 // import Button from 'react-bootstrap/Button';
 // const App=()=>{
@@ -534,44 +581,375 @@
 // }
 // export default App;
 // =============================================================================
-import Table from 'react-bootstrap/Table';
+// import Table from 'react-bootstrap/Table';
+// const App=()=>{
+//   return(
+//     <>
+
+//       <h1>Welcome </h1>
+//       <Table striped bordered hover>
+//       <thead>
+//         <tr>
+//           <th>#</th>
+//           <th>First Name</th>
+//           <th>Last Name</th>
+//           <th>Username</th>
+//         </tr>
+//       </thead>
+//       <tbody>
+//         <tr>
+//           <td>1</td>
+//           <td>Mark</td>
+//           <td>Otto</td>
+//           <td>@mdo</td>
+//         </tr>
+//         <tr>
+//           <td>2</td>
+//           <td>Jacob</td>
+//           <td>Thornton</td>
+//           <td>@fat</td>
+//         </tr>
+//         <tr>
+//           <td>3</td>
+//           <td colSpan={2}>Larry the Bird</td>
+//           <td>@twitter</td>
+//         </tr>
+//       </tbody>
+//     </Table>
+   
+//     </>
+//   )
+// }
+// export default App;
+
+// ==========================================
+// import { Container,Row,Col } from "react-bootstrap";
+
+
+// const App=()=>{
+//   return(
+    
+//     <>
+//      <Container className='border p-5 bg-info'>
+//       <Row>
+//         <Col md={4} className="bg-danger text-center text-white fs-1 p-5">
+//           Hello we are Cybrom Students!!!
+//         </Col>
+//         <Col md={4} className="bg-danger text-center border text-white fs-1 p-5">
+//           Welcome to Cybrom!!
+//         </Col>
+//         <Col md={4} className="bg-danger text-center text-white fs-1 p-5">
+//           Welcome to Cybrom!!
+//         </Col>
+//         </Row>
+//         <br/>
+//         <Row>
+//         <Col md={8} className="bg-success text-center border text-white fs-2 p-5">
+//           Welcome to Cybrom!!
+//         </Col>
+//         <Col md={2} className="bg-success text-center border text-white fs-2 p-5">
+//           Welcome to Cybrom!!
+//         </Col>
+//         <Col md={2} className="bg-success text-center border text-white fs-2 p-5">
+//           Welcome to Cybrom!!
+//         </Col>
+//       </Row>
+//      </Container>
+//     </>
+//   )
+// }
+// export default App;
+
+// =============================================================================================
+
+// import myimg1 from "./images/s1.jpg";
+// import img2 from "./images/s2.jpg";
+// import im3 from "./images/s3.jpg";
+// const App=()=>{
+//   return(
+//     <>
+//     <h1>Welcome to my app</h1>
+//     <img src={myimg1} width="500"/>
+//     <img src={img2} width="500"/>
+
+//     <img src={im3} width="500"/>
+
+//     </>
+//   )
+// }
+// export default App;
+
+// ===============================================================================================
+
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
+
+// import Carousel from 'react-bootstrap/Carousel';
+// import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card';
+// import  Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
+
+
+
+// const App=()=>{
+//   return(
+//     <>
+//     <h1>Welcome to my Website</h1>
+
+//     <Navbar expand="lg" className="bg-body-tertiary">
+//       <Container>
+//         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+//         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+//         <Navbar.Collapse id="basic-navbar-nav">
+//           <Nav className="me-auto">
+//             <Nav.Link href="#home">Home</Nav.Link>
+//             <Nav.Link href="#link">Link</Nav.Link>
+//             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+//               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+//               <NavDropdown.Item href="#action/3.2">
+//                 Another action
+//               </NavDropdown.Item>
+//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+//               <NavDropdown.Divider />
+//               <NavDropdown.Item href="#action/3.4">
+//                 Separated link
+//               </NavDropdown.Item>
+//             </NavDropdown>
+//           </Nav>
+//         </Navbar.Collapse>
+//       </Container>
+//     </Navbar>
+
+//     <br/>
+
+//     <Carousel>
+//       <Carousel.Item>
+//         <img src="public/a1.jfif" width="100%" height="600" />
+//         <Carousel.Caption>
+//           <h3>First slide label</h3>
+//           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+//         </Carousel.Caption>
+//       </Carousel.Item>
+//       <Carousel.Item>
+//         <img src="public/a2.jfif" width="100%" height="600" />
+//         <Carousel.Caption>
+//           <h3>Second slide label</h3>
+//           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+//         </Carousel.Caption>
+//       </Carousel.Item>
+//       <Carousel.Item>
+//         <img src="public/a3.jfif" width="100%" height="600"/>
+//         <Carousel.Caption>
+//           <h3>Third slide label</h3>
+//           <p>
+//             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+//           </p>
+//         </Carousel.Caption>
+//       </Carousel.Item>
+//     </Carousel>
+
+//     <br />
+//     <Container>
+//     <Row>
+//       <Col>
+//       <Card style={{ width: '18rem' }}>
+//       <img src="public/a2.jfif" alt="" />
+//       <Card.Body>
+//         <Card.Title>Card Title</Card.Title>
+//         <Card.Text>
+//           Some quick example text to build on the card title and make up the
+//           bulk of the card's content.
+//         </Card.Text>
+//         <Button variant="primary">Go somewhere</Button>
+//       </Card.Body>
+//     </Card>
+//       </Col>
+
+//       <Col>
+//       <Card style={{ width: '18rem' }}>
+//       <img src="public/a3.jfif" alt="" />
+//       <Card.Body>
+//         <Card.Title>Card Title</Card.Title>
+//         <Card.Text>
+//           Some quick example text to build on the card title and make up the
+//           bulk of the card's content.
+//         </Card.Text>
+//         <Button variant="primary">Go somewhere</Button>
+//       </Card.Body>
+//     </Card>
+//       </Col>
+
+//       <Col>
+//       <Card style={{ width: '18rem' }}>
+//       <img src="public/b1.jfif" alt="" />
+
+//       <Card.Body>
+//         <Card.Title>Card Title</Card.Title>
+//         <Card.Text>
+//           Some quick example text to build on the card title and make up the
+//           bulk of the card's content.
+//         </Card.Text>
+//         <Button variant="primary">Go somewhere</Button>
+//       </Card.Body>
+//     </Card>
+//       </Col>
+//     </Row>
+//     </Container>
+//     </>
+//   )
+// }
+// export default App;
+
+// ======================================Task============================================================
+
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+
+
 const App=()=>{
   return(
     <>
+      <h1>WElcome to my Website</h1>
+      <Navbar expand="lg" className="bg-body-tertiary text-center fs-1 p-3">
+      <Container>
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#link">Link</Nav.Link>
+            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
 
-      <h1>Welcome </h1>
-      <Table striped bordered hover>
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td colSpan={2}>Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
-      </tbody>
-    </Table>
-   
+    <br/>
+
+    <Carousel>
+      <Carousel.Item>
+        <img src="public/m4.webp" width="100%" height="600" />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="public/m2.jpg" width="100%" height="600"/>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="public/m3.webp" width="100%" height="600"/>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+    <br/>
+
+    <Container>
+      <Row>
+        <Col>
+        <Card style={{ width: '18rem' }}>
+        <img src="public/m5.webp" alt="" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+        </Col>
+        <Col>
+        <Card style={{ width: '18rem' }}>
+        <img src="public/m6.webp" alt="" />
+      
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+        </Col>
+        <Col>
+        <Card style={{ width: '18rem' }}>
+        <img src="public/m7.webp" alt="" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+        </Col>
+      </Row>
+    </Container>
+    <br/>
+
+  <Col className='border p-3 bg-dark'>
+       <Row>
+         <Col  className="bg-dark text-center text-white fs-1 p-2">
+           FOOTER CONTENT
+           here you can use row and column here to organise your footer content.
+
+         </Col>
+        <Col className="bg-dark text-center  text-white fs-1 p-2">
+         LINKS<br/>
+         Link 1<br/>
+         Link 2<br/>
+         Link 3<br/>
+         Link 4<br/>
+         Link 5<br/>
+
+         </Col>
+        <Col className="bg-dark text-center text-white fs-1 p-2">
+        LINKS<br/>
+         Link 1<br/>
+         Link 2<br/>
+         Link 3<br/>
+         Link 4<br/>
+         Link 5<br/>
+        </Col>
+           </Row>
+      </Col>
+    
+
     </>
   )
 }
 export default App;
-
